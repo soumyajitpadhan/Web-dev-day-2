@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling a form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <form action="#">
+        <div id="container">
+            <!-- Dropdown Menu -->
+            <div>
+                <label for="feedback">Feedback Type:</label>
+                <select name="feedback" id="feedback" class="field">
+                    <option value="Compliment">Compliment</option>
+                    <option value="general">General Feedback</option>
+                    <option value="bug">Report a Bug</option>
+                    <option value="suggestion">Suggestion</option>
+                </select>
+            </div>
+
+            <!-- Text Area -->
+            <div>
+                <label for="u-msg">Message:</label>
+                <textarea class="field" name="u-msg" id="u-msg" rows="3" cols="30"></textarea>
+            </div>
+
+            <!-- Radio Buttons -->
+            <div>
+                <label for="" class="radio-container">Website Rating:</label>
+                <div class="cont">
+                    <label for="rate1">
+                        <input type="radio" name="rating" id="rate1" class="radio-ads">  Excellent
+                    </label>
+                    <label for="rate2">
+                        <input type="radio" name="rating" id="rate2" class="radio-ads">  Good
+                    </label>
+                    <label for="rate3">
+                        <input type="radio" name="rating" id="rate3" class="radio-ads">  Average
+                    </label>
+                    <label for="rate4">
+                        <input type="radio" name="rating" id="rate4" class="radio-ads">  Poor
+                    </label>
+                </div>
+            </div>
+
+            <!-- Age -->
+            <div>
+                <label for="age">Age (10-100):</label>
+                <input type="number" id="age" min="10" max="100" class="field">
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email">Email*:</label>
+                <input type="email" id="email" required class="field">
+            </div>
+
+            <!-- Password -->
+            <div>
+                <label for="pass">Password (min. 8 character):</label>
+                <input type="password" id="pass" minlength="8" class="field">
+            </div>
+
+            <!-- Optional website URL -->
+            <div>
+                <label for="web">Website URL (Optional):</label>
+                <input type="url" id="web" class="field">
+            </div>
+
+            <!-- Checkbox -->
+            <div>
+                <label for="chc">
+                    <input type="checkbox" id="chc" required> I agree to the terms and conditions.
+                </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn">Submit</button>
+    </form>
+    </div>
+</body>
+
+</html>

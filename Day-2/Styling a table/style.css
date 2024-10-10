@@ -1,0 +1,25 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+}
+
+th,td{
+    padding: 8px;
+    border: 1px solid rgb(144, 141, 141);
+    text-align:left ;
+}
+
+#bg-green{
+    background-color: green;
+}
+
+#bg-gray{
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+.bld{
+    font-weight: bold;
+}

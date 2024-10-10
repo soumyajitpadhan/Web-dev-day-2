@@ -1,0 +1,50 @@
+.container {
+    /* border: 2px solid black; */
+    height: 380px;
+    width: 300px;
+    box-shadow: 5px 5px 12px rgb(238, 237, 237);
+}
+
+img {
+    height: 160px;
+    width: 260px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+p {
+    text-align: center;
+}
+
+#col-green {
+    color: yellowgreen;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+.col-gray {
+    font-size: 18px;
+    margin: 5px 0px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+#year {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
